@@ -1,0 +1,21 @@
+.background{
+    background-color: aqua;
+    width: 1320px;
+    height: 65px;
+    
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.margin{
+    margin-right: 42px;
+}
