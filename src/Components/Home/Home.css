@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.flex img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.flex-item{
+    flex: 1;
+    height: 600px;
+}
+
+.text-leftalligned{
+    text-align: left;
+}
+.sizing{
+
+    margin: 50px 200px 100px 0px;
+}
+/* ======================================= */
+.title{
+    width: 411px;
+    height: 66px;
+    margin: 0 300px 0 330px;
+}
+
+.centering{
+    margin: 100px;
+}

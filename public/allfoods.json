@@ -1,3 +1,4 @@
+
 [
     {
       "id": "64356ee17eb13b2dddf5b586",
@@ -12,22 +13,6 @@
           "foodDetails": " A flaky, buttery pastry made of layered dough, typically filled with almond paste or chocolate.",
           "ingridients": "Rice,Chicken, Seafood (such as shrimp, clams, and mussels),Onion,Bell peppers,Tomatoes,Saffron,Chicken broth,Olive oil",
           "callories": 400
-        }
-      ]
-    },
-    {
-      "id": "64356ee1bf582677b7517215",
-      "coverPicture": "http://placehold.it/32x32",
-      "numberOfOrdersTaken": 600,
-      "foodCategory": "French",
-      "OrderFood": [
-        {
-          "foodName": "Pizza",
-          "foodPicture": "http://placehold.it/32x32",
-          "foodPrice": 400,
-          "foodDetails": "A traditional Spanish rice dish with saffron, chicken, seafood, and vegetables.",
-          "ingridients": "Dough,Tomato sauce,Cheese,Toppings (e.g. pepperoni, mushrooms, onions, etc.)",
-          "callories": 500
         }
       ]
     },
@@ -47,22 +32,7 @@
         }
       ]
     },
-    {
-      "id": "64356ee1ae6c537592e0555e",
-      "coverPicture": "http://placehold.it/32x32",
-      "numberOfOrdersTaken": 200,
-      "foodCategory": "French",
-      "OrderFood": [
-        {
-          "foodName": "Paella",
-          "foodPicture": "http://placehold.it/32x32",
-          "foodPrice": 300,
-          "foodDetails": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
-          "ingridients": " Flour,Butter,Sugar,Yeast,Almond paste or chocolate (for filling)",
-          "callories": 400
-        }
-      ]
-    },
+
     {
       "id": "64356ee1663ddcc0f459e7b6",
       "coverPicture": "http://placehold.it/32x32",
@@ -108,6 +78,38 @@
           "foodDetails": "A Japanese noodle soup dish with Chinese origins, typically made with Chinese-style wheat noodles, broth, and various toppings.",
           "ingridients": "Tortilla (corn or flour),Meat (e.g. beef, pork, chicken, etc.),Vegetables (e.g. lettuce, tomatoes, onions, etc.),Toppings (e.g. cheese, salsa, guacamole, etc.)",
           "callories": 100
+        }
+      ]
+    },
+    {
+      "id": "64356ee1bf582677b7517215",
+      "coverPicture": "http://placehold.it/32x32",
+      "numberOfOrdersTaken": 600,
+      "foodCategory": "French",
+      "OrderFood": [
+        {
+          "foodName": "Pizza",
+          "foodPicture": "http://placehold.it/32x32",
+          "foodPrice": 400,
+          "foodDetails": "A traditional Spanish rice dish with saffron, chicken, seafood, and vegetables.",
+          "ingridients": "Dough,Tomato sauce,Cheese,Toppings (e.g. pepperoni, mushrooms, onions, etc.)",
+          "callories": 500
+        }
+      ]
+    },
+    {
+      "id": "64356ee1ae6c537592e0555e",
+      "coverPicture": "http://placehold.it/32x32",
+      "numberOfOrdersTaken": 200,
+      "foodCategory": "French",
+      "OrderFood": [
+        {
+          "foodName": "Paella",
+          "foodPicture": "http://placehold.it/32x32",
+          "foodPrice": 300,
+          "foodDetails": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
+          "ingridients": " Flour,Butter,Sugar,Yeast,Almond paste or chocolate (for filling)",
+          "callories": 400
         }
       ]
     }

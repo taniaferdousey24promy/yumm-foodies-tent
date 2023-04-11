@@ -1,0 +1,19 @@
+.div-style{
+    background-color: #E8DAEF;
+    width: 200px;
+    height: 200px;
+    border-radius: 2%;
+    padding: 20px;
+    text-align: left;
+    
+}
+.div-style h3{
+    text-align: left;
+}
+.size-beaker{
+    height: 50px;
+    width: 50px;
+    color: #A569BD;
+    background-color: #F5EEF8;
+    border-radius: 25%;
+}
