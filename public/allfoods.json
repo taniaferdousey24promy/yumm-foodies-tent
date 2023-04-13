@@ -12,14 +12,22 @@
         "foodName": "Pizza",
         "tasteBarOneAvailable":"Spicy",
         "tasteBarTwoAvailable":"Mild",
+        "preparationTime": "Preparation time for pizza is typically around 20 minutes, but may vary depending on the recipe and method of cooking.",
+        "dietaryPreferences": "Pizza can be made to suit different dietary preferences, including vegetarian and non-vegetarian options.",
+        "allergenInformation": "Common allergen information for pizza includes gluten from the dough and dairy from the cheese.",
+        "nutritionalInformation": "Nutritional information for pizza can vary depending on the toppings and crust type, but typically it contains calories, protein, carbohydrates, and fat.",
 
 
         "foodPicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTayHWwKxzrYwk94odCcIU3OFVXEI2XTtbdV8-N35KCR2JVPh4QR0FyWpwa5tbq43GhYpw&usqp=CAU",
         "placedOrders":300,
-        "foodPrice": 100,
-        "foodDetails": " A flaky, buttery pastry made of layered dough, typically filled with almond paste or chocolate.",
+        "foodPrice": 100  ,
+        "foodDescription": " A flaky, buttery pastry made of layered dough, typically filled with almond paste or chocolate.",
         "ingridients": "Rice,Chicken, Seafood (such as shrimp, clams, and mussels),Onion,Bell peppers,Tomatoes,Saffron,Chicken broth,Olive oil",
-        "callories": 400
+        "callories": 400,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   },
@@ -34,13 +42,21 @@
         "foodName": "Ramen",
         "tasteBarOneAvailable":"Extra",
         "tasteBarTwoAvailable":"Hot",
+        "preparationTime": "Ramen is a Japanese dish that usually requires longer preparation time, averaging around 45 minutes to an hour.",
+        "dietaryPreferences": "Ramen is typically made with non-vegetarian ingredients like pork or chicken, but can also be made with vegetarian options.",
+        "allergenInformation": "Common allergen information for ramen may include gluten from the noodles and soy from the broth or seasoning.",
+        "nutritionalInformation": "Nutritional information for ramen can vary depending on the ingredients used, but typically it contains calories, protein, carbohydrates, and fat.",
         "foodPicture": "https://cdn.dribbble.com/users/3758407/screenshots/7800176/dribble_logo_ramenpng.png",
         "placedOrders":600,
 
-        "foodPrice": 200,
-        "foodDetails": " A flaky, buttery pastry made of layered dough, typically filled with almond paste or chocolate.",
+        "foodPrice": 200  ,
+        "foodDescription": " A flaky, buttery pastry made of layered dough, typically filled with almond paste or chocolate.",
         "ingridients": "Chicken breast,Peanuts,Vegetables (such as bell peppers and zucchini),Chili peppers,Soy sauce,Vinegar,Sugar,Garlic,Ginger",
-        "callories": 500
+        "callories": 500,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   },
@@ -56,13 +72,22 @@
         "foodName": "Croissant",
         "tasteBarOneAvailable":"Spicy",
         "tasteBarTwoAvailable":"Mild",
+        "preparationTime": "Croissants require preparation time of around 30 minutes to make the flaky layers of dough.",
+        "dietaryPreferences": "Croissants are typically made with non-vegetarian ingredients like butter and eggs, but can also be made with vegetarian options.",
+        "allergenInformation": "Common allergen information for croissants includes gluten from the dough and dairy from the butter.",
+        "nutritionalInformation": "Nutritional information for croissants can vary depending on the size and ingredients used, but typically it contains calories, protein, carbohydrates, and fat.",
+ 
         "foodPicture": "https://static.vecteezy.com/system/resources/previews/004/925/557/original/croissant-in-cartoon-style-sweet-pastry-for-logo-or-design-vector.jpg",
         "placedOrders":100,
 
-        "foodPrice": 500,
-        "foodDetails": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
+        "foodPrice": 500   ,
+        "foodDescription": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
         "ingridients": " Flour,Butter,Sugar,Yeast,Almond paste or chocolate (for filling)",
-        "callories": 400
+        "callories": 400,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   },
@@ -77,13 +102,21 @@
         "foodName": "tortilla",
         "tasteBarOneAvailable":"Extra",
         "tasteBarTwoAvailable":"Hot",
+        "preparationTime": "Tortillas are relatively quick to make, with a preparation time of around 15 minutes.",
+        "dietaryPreferences": "Tortillas can be made to suit different dietary preferences, including vegetarian and vegan options.",
+        "allergenInformation": "Common allergen information for tortillas includes gluten from the flour used to make the dough.",
+        "nutritionalInformation": "Nutritional information for tortillas can vary depending on the size and ingredients used, but typically it contains calories, protein, carbohydrates, and fat.",
         "foodPicture": "https://img.freepik.com/free-vector/drawing-taco-with-taco-it_341269-1165.jpg",
         "placedOrders":500,
 
-        "foodPrice": 300,
-        "foodDetails": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
+        "foodPrice": 300  ,
+        "foodDescription": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
         "ingridients": "Dough,Tomato sauce,Cheese,Toppings (e.g. pepperoni, mushrooms, onions, etc.)",
-        "callories": 300
+        "callories": 300,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   },
@@ -98,13 +131,21 @@
         "foodName": "Paella",
         "tasteBarOneAvailable":"Extra",
         "tasteBarTwoAvailable":"Hot",
+        "preparationTime": "Paella is a Spanish dish that requires longer preparation time, usually around 1 hour to cook the rice and ingredients together.",
+      "dietaryPreferences": "Paella is typically made with non-vegetarian ingredients like chicken, seafood, or sausage, but can also be made with vegetarian options.",
+      "allergenInformation": "Common allergen information for paella may include shellfish in seafood paella.",
+      "nutritionalInformation": "Nutritional information for paella can vary depending on the ingredients used, but typically it contains calories, protein, carbohydrates, and fat.",
         "foodPicture": "https://thumbs.dreamstime.com/b/paella-icon-simple-style-white-background-79518895.jpg",
         "placedOrders":200,
 
-        "foodPrice": 200,
-        "foodDetails": "A Japanese noodle soup dish with Chinese origins, typically made with Chinese-style wheat noodles, broth, and various toppings.",
+        "foodPrice": 200  , 
+        "foodDescription": "A Japanese noodle soup dish with Chinese origins, typically made with Chinese-style wheat noodles, broth, and various toppings.",
         "ingridients": "Tortilla (corn or flour),Meat (e.g. beef, pork, chicken, etc.),Vegetables (e.g. lettuce, tomatoes, onions, etc.),Toppings (e.g. cheese, salsa, guacamole, etc.)",
-        "callories": 100
+        "callories": 100,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   },
@@ -119,13 +160,21 @@
         "foodName": "Kung Pao Chicken",
         "tasteBarOneAvailable":"Spicy",
         "tasteBarTwoAvailable":"Mild",
+        "preparationTime": "Kung Pao Chicken is a Chinese dish that typically requires around 30 minutes for preparation and cooking.",
+      "dietaryPreferences": "Kung Pao Chicken is made with non-vegetarian ingredients like chicken, but can also be made with vegetarian options using tofu or vegetables.",
+      "allergenInformation": "Common allergen information for Kung Pao Chicken includes peanuts, soy, and gluten from the sauce and marinade.",
+      "nutritionalInformation": "Nutritional information for Kung Pao Chicken can vary depending on the ingredients used, but typically it contains calories, protein, carbohydrates, and fat.",
         "foodPicture": "https://as1.ftcdn.net/jpg/02/18/69/34/160_F_218693440_04UZpHQundmV5sXnP1adI4HK0Ql95q1w.jpg",
         "placedOrders":600,
 
-        "foodPrice": 400,
-        "foodDetails": "A traditional Spanish rice dish with saffron, chicken, seafood, and vegetables.",
+        "foodPrice": 400  ,
+        "foodDescription": "A traditional Spanish rice dish with saffron, chicken, seafood, and vegetables.",
         "ingridients": "Dough,Tomato sauce,Cheese,Toppings (e.g. pepperoni, mushrooms, onions, etc.)",
-        "callories": 500
+        "callories": 500,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   },
@@ -140,13 +189,21 @@
         "foodName": "Pasta",
         "tasteBarOneAvailable":"Extra",
         "tasteBarTwoAvailable":"Hot",
+        "preparationTime": "Pasta is a popular Italian dish that typically requires around 10-15 minutes for boiling the pasta and additional time for sauce preparation.",
+      "dietaryPreferences": "Pasta can be made to suit different dietary preferences, including vegetarian, vegan, and non-vegetarian options with meat or seafood.",
+      "allergenInformation": "Common allergen information for pasta includes gluten from the wheat-based pasta and dairy from the cheese in some recipes.",
+      "nutritionalInformation": "Nutritional information for pasta can vary depending on the type of pasta, sauce, and ingredients used, but typically it contains calories, protein, carbohydrates, and fat.",
         "foodPicture": "https://as1.ftcdn.net/jpg/01/11/40/72/160_F_111407270_pxIQm66EVe00HadFIjC73SmzzbSffAtK.jpg",
         "placedOrders":200,
 
-        "foodPrice": 300,
-        "foodDetails": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
+        "foodPrice": 300  ,
+        "foodDescription": "A Mexican dish consisting of a tortilla filled with meat, vegetables, and various toppings.",
         "ingridients": " Flour,Butter,Sugar,Yeast,Almond paste or chocolate (for filling)",
-        "callories": 400
+        "callories": 400,
+        "phone": "+8801234567890",
+        "email": "example@example.com",
+        "location": "123, Example Road, Dhaka, Bangladesh",
+        "postcode": "1234"
       }
     
   }

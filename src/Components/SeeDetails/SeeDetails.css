@@ -1,4 +1,63 @@
 .bannerOnDetails img{
-    width: 50%;
+    width: 20%;
 
 }
+
+.flex{
+    display: flex;
+    gap: 10px;
+
+}
+.flex-big{
+    display: flex;
+    gap: 100px;
+    text-align: left;
+    /* margin: 100px 200px 200px 200px; */
+}
+.description-part{
+    height: 450px;
+    width: 50%;
+    text-align: left;
+    margin: 150px 50px 150px 100px;
+    
+}
+.details-card-with-button{
+    height: 300px;
+}
+.details-card{
+    
+    border-radius: 5%;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    padding-left: 50px;
+}
+.details-card h3{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.details-card hr{
+    color: #D0D3D4;
+    width: 70%;
+    height: 1px ;
+}
+
+.order-button{
+    margin-top: 20px;
+
+}
+
+.order-button button{
+    width: 100%;
+
+
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    color: #A569BD;
+    background-color: #F5EEF8;
+    border-radius: 25%;
+
+}
+

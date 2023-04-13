@@ -29,13 +29,14 @@
 
     border: 1px solid #A569BD;
     color: #A569BD;
+    margin-left:50px ;
+
 }
 .bordering p{
     margin-right: 50px;
 }
 .flex{
     display: flex;
-    margin-left:50px ;
 }
 button{
     margin-right: 80px;
