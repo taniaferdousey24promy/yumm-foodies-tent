@@ -31,3 +31,19 @@
 .centering{
     margin: 100px;
 }
+
+/* ============================================ */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
+    gap: 10px; 
+    height: 600px;
+    width: 1030px;
+    margin: auto;
+}
+.view-more-button button{
+    margin-top: 1300px;
+    margin-left: 100px;
+
+}

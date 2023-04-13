@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './Home.css'
 import FoodCategory from '../FoodCategory/FoodCategory';
+import FoodAvailable from '../FoodAvailable/FoodAvailable';
 
 
 const Home = () => {
@@ -50,6 +51,51 @@ const Home = () => {
                 
 
             </section>
+
+            {/* Available foods showing with button for details */}
+            <section>
+                <div>
+
+                    <div>
+
+                        <h2>Available To Order</h2>
+                        <small><p>Explore hundreds of food items with all the kind you need. Its your taste</p></small>
+
+                    </div>
+
+                    
+                    <div className='grid'>
+                        {
+                      
+
+                            foods.map(food=><FoodAvailable
+                                key={food.id}
+                                food={food}
+                            ></FoodAvailable>)
+                        }
+
+                    </div>
+
+                    
+
+                
+
+
+                </div>
+
+
+
+
+
+            </section>
+            <section className='view-more-button'>
+                <button>View More</button>
+                
+
+
+            </section>
+
+
 
             
 

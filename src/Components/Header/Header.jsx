@@ -9,7 +9,6 @@ const Header = () => {
             <div className='flex-grow '>
 
                 <small><Link className='margin' to = "/">Home </Link></small>
-                <small><Link className='margin'to = "/order-food">Order </Link></small>
                 <small><Link className='margin'to = "/food-cart"> Cart</Link></small>
 
             

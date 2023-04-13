@@ -8,8 +8,9 @@ import {
 } from "react-router-dom";
 import Main from './Components/Layout/Main';
 import Home from './Components/Home/Home';
-import OrderFood from './Components/OrderFood/OrderFood';
 import FoodCart from './Components/FoodCart/FoodCart';
+import SeeDetails from './Components/SeeDetails/SeeDetails';
+import FoodAvailable from './Components/FoodAvailable/FoodAvailable';
 
 const router = createBrowserRouter([
   {
@@ -21,15 +22,23 @@ const router = createBrowserRouter([
         element:<Home></Home>,
         loader: ()=> fetch ('allfoods.json')
       },
+      {
+        path: '/foodAvailable/:foodAvailableId',
+        element: <SeeDetails></SeeDetails>,
+        loader:()=>fetch ('/allfoods.json')
+        // loader: async ({params}) => {
+        //   const res = await fetch('/allfoods.json');
+        //   const data = await res.json();
+        //   const singleFood = data.find(info => info.id === params);
+        //   return singleFood; // Return the found object
+        // }
+        
 
-      {
-        path:'order-food',
-        element:<OrderFood></OrderFood>
       },
-      {
-        path:'food-cart',
-        element:<FoodCart></FoodCart>
-      },
+      // {
+      //   path:'food-cart',
+      //   element:<FoodCart></FoodCart>
+      // }
 
     ]
   },
