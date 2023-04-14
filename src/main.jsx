@@ -12,6 +12,7 @@ import FoodCart from './Components/FoodCart/FoodCart';
 import SeeDetails from './Components/SeeDetails/SeeDetails';
 import FoodAvailable from './Components/FoodAvailable/FoodAvailable';
 import OrderedFoods from './Components/OrderedFoods/OrderedFoods';
+import Statistics from './Components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -39,11 +40,18 @@ const router = createBrowserRouter([
       {
         path: '/foodOrdering',
         element:<OrderedFoods></OrderedFoods>
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+        
+
+      },
+      {
+        path: '*',
+        element: <div><h1>404 Error : Page Not Found</h1></div>
       }
-      // {
-      //   path:'food-cart',
-      //   element:<FoodCart></FoodCart>
-      // }
+
 
     ]
   },

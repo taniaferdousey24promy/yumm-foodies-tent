@@ -11,6 +11,8 @@ import {
 import "./SeeDetails.css";
 import { addToDb } from "../../utilities/fakedb";
 import OrderedFoods from "../OrderedFoods/OrderedFoods";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function SeeDetails() {
   const { foodAvailableId } = useParams();
@@ -22,17 +24,17 @@ function SeeDetails() {
   let singleFood = foods.find((food) => food.id === parseInt(foodAvailableId));
   console.log(singleFood);
 
-  const banner =
-    "https://cdn.shopify.com/s/files/1/2331/4061/files/Copy_of_Copy_of_Short_Bread_Banner_480x480.png?v=1661774905";
+  const banner ="https://t4.ftcdn.net/jpg/02/62/27/45/240_F_262274583_fbVsQxJVRYLgkaQHrRoxNKpMdDYmhLJD.jpg";
 
 
   const handleAddToDb = (singleFood)=>{
     addToDb(singleFood.id);
+    toast("Added to the Ordered Food Cart");
   }
   return (
     <div>
       <div className="bannerOnDetails">
-        <img src={banner} alt="" />
+        <img  src={banner} alt="" />
       </div>
 
       <h3>Food Details</h3>
@@ -107,7 +109,13 @@ function SeeDetails() {
             </div>
 
           <div className="order-button">
-            <Link to='/foodOrdering'><button onClick={()=>handleAddToDb(singleFood)}>Order Now</button></Link>
+            <button onClick={()=>handleAddToDb(singleFood)}>Order Now</button>
+            <div className="toastify-shape">
+            <ToastContainer />
+
+
+            </div>
+
           </div>
         </div>
       </div>

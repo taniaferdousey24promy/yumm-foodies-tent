@@ -10,7 +10,7 @@
     "foodDetails": 
       {
 
-
+        "speciality":"All the goodness of Italian food",
         "foodName": "Pizza",
         "tasteBarOneAvailable":"Spicy",
         "tasteBarTwoAvailable":"Mild",
@@ -28,7 +28,7 @@
         "callories": 400,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     
@@ -42,6 +42,8 @@
 
     "foodDetails": 
       {
+        "speciality":"Authentic Japanese Ramen",
+
 
         "foodName": "Ramen",
         "tasteBarOneAvailable":"Extra",
@@ -59,7 +61,7 @@
         "callories": 500,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     
@@ -74,6 +76,8 @@
 
     "foodDetails": 
       {
+        "speciality":"Croissant filled with cream.",
+
 
         "foodName": "Croissant",
         "tasteBarOneAvailable":"Spicy",
@@ -92,7 +96,7 @@
         "callories": 400,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     
@@ -106,6 +110,8 @@
 
     "foodDetails": 
       {
+        "speciality":"Authentic Mexican Tortillas",
+
 
         "foodName": "tortilla",
         "tasteBarOneAvailable":"Extra",
@@ -123,7 +129,7 @@
         "callories": 300,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     
@@ -137,6 +143,8 @@
 
     "foodDetails": 
       {
+        "speciality":"Traditional Spenish Paella",
+
 
         "foodName": "Paella",
         "tasteBarOneAvailable":"Extra",
@@ -154,7 +162,7 @@
         "callories": 100,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     
@@ -168,6 +176,8 @@
 
     "foodDetails": 
       {
+        "speciality":"Savory and Sweet With a Mild Spicy Kick.",
+
 
         "foodName": "Kung Pao Chicken",
         "tasteBarOneAvailable":"Spicy",
@@ -185,7 +195,7 @@
         "callories": 500,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     
@@ -199,6 +209,7 @@
 
     "foodDetails": 
       {
+        "speciality":"Pasta Puttanesca ",
 
         "foodName": "Pasta",
         "tasteBarOneAvailable":"Extra",
@@ -216,7 +227,7 @@
         "callories": 400,
         "phone": "+8801234567890",
         "email": "example@example.com",
-        "location": "123, Example Road, Dhaka, Bangladesh",
+        "location": "Dhaka, Bangladesh",
         "postcode": "1234"
       }
     

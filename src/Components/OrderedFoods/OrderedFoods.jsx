@@ -1,100 +1,137 @@
-import React, { useEffect, useState } from 'react';
-import './OrderedFoods.css'
-import { getShoppingCart } from '../../utilities/fakedb';
+import React, { useEffect, useState } from "react";
+import "./OrderedFoods.css";
+import { getShoppingCart } from "../../utilities/fakedb";
+import {CurrencyBangladeshiIcon, MapPinIcon} from "@heroicons/react/24/solid";
 
 const OrderedFoods = () => {
-    const [foods, setFoodsducts] = useState([]);
-    useEffect(() => {
-        fetch('allfoods.json')
-            .then(res => res.json())
-            .then(data => setFoodsducts(data))
-    }, []);
+    const banner = "";
 
-    const [cart,setCart] =useState([]);
+  const [foods, setFoodsducts] = useState([]);
+  useEffect(() => {
+    fetch("allfoods.json")
+      .then((res) => res.json())
+      .then((data) => setFoodsducts(data));
+  }, []);
 
-    useEffect(() => {
+  //trying
+//   cont [anotherFoods,setAnotherFoods] =useState(foods);
 
-        console.log('foods',foods);
+  const [cart, setCart] = useState([]);
 
-        const storedCart = getShoppingCart();
-        const savedCart =[];
-        for(const id in storedCart){
-            console.log(id);
-            let addedFood = foods.find(food => food.id === parseInt(id));
-            console.log(addedFood);
-            // const quantity = storedCart[id];
-            // addedFood.quantity=parseInt(quantity);
-            // console.log(typeof(quantity));
-            if(addedFood){
-                const quantity=storedCart[id];
-                addedFood.quantity =quantity;
-                console.log(addedFood.quantity);
-                savedCart.push(addedFood);
+  useEffect(() => {
+    console.log("foods", foods);
 
-            }
+    const storedCart = getShoppingCart();
+    const savedCart = [];
+    for (const id in storedCart) {
+      console.log(id);
+      let addedFood = foods.find((food) => food.id === parseInt(id));
+      console.log(addedFood);
 
-
-        }
-        setCart(savedCart)
-
-    },[foods])
-
-    console.log(cart);
-
-    let quantity=0;
-    for (const food of cart){
-        quantity=quantity + food.quantity
+      if (addedFood) {
+        const quantity = storedCart[id];
+        addedFood.quantity = quantity;
+        console.log(addedFood.quantity);
+        savedCart.push(addedFood);
+      }
     }
-    return (
-        <div>
-
-            <h3>
-                Ordered Foods
+    setCart(savedCart);
+  }, [foods]); 
 
 
-            </h3>
 
-            <h4>
-            Total Selected Food Items:{quantity}
+  console.log(cart);
 
 
-            </h4>
- 
-            <div >
-            {
-                cart.map(food=> 
+  let quantity = 0;
+  for (const food of cart) {
+    quantity = quantity + food.quantity;
+  }
 
-                <div className='container-for-each'>
+  const filteringExtra = ()=>{
+    const filteredExtra = cart.filter(food => food.foodDetails.tasteBarOneAvailable === "Extra" );
+    setCart(filteredExtra);
+  }
 
-                    <div className='food-pic flex-row'>
-                        {
-                            <img src={food.foodDetails.foodPicture} alt="" />
+  const filteringSpicy = ()=>{
+    const filteredSpicy = cart.filter(food => food.foodDetails.tasteBarOneAvailable === "Spicy" );
+    setCart(filteredSpicy);
+  }
 
-                        }
-                        
+
+
+
+
+
+
+  return (
+    <div>
+        <div className="bannerOnDetails">
+            <img src={banner} alt="" />
+        </div>
+      <h3>Ordered Foods</h3> 
+      {/* for taste one */}
+      <button onClick={filteringExtra}>Extra</button>
+      <button onClick={filteringSpicy}>Spicy</button>
+
+
+
+      <div>
+        {cart.map((food) => (
+          <div className="container-for-each">
+            <div className="food-pic flex-row">
+              {<img src={food.foodDetails.foodPicture} alt="" />}
+            </div>
+            <div className="food-name flex-row">
+              <h4>{food.foodDetails.speciality}</h4>
+
+              <p>
+                {food.foodCategory} {food.foodDetails.foodName}
+              </p>
+              <div className="flexy">
+                <div className="box">
+                    <small>{food.foodDetails.tasteBarOneAvailable}</small>
+                </div>
+                <div className="box">
+                    <small>{food.foodDetails.tasteBarTwoAvailable}</small>
+                </div>
+              </div>
+
+              <div className="flex-icon">
+                    <div className="icon">
+                        <MapPinIcon />
+                    </div>
+
+                    
+                    <div>
+                        <small>Location: {food.foodDetails.location}</small>
 
                     </div>
-                    <div className='food-name flex-row'>
-
-                    {
-                    food.foodDetails.foodName
-                    }
-
+                    <div className="icon">
+                        <CurrencyBangladeshiIcon />
+                    </div>
+                    <div>
+                                            
+                        <small>Price: {food.foodDetails.foodPrice}</small>
 
                     </div>
-                    <div className='detail-button flex-row'>
-                        <button>View Details</button>
+                </div>
 
-                    </div>
-                </div>)
-            }
+
+                
+
 
             </div>
+            <div className="detail-button flex-row">
+              <button>View Details</button>
+            </div>
+          </div>
+        ))}
+      </div>
 
-            {/* <p>food:{cart[0].foodCategory}</p> */}
-            
-        </div>
-    );
+      {/* <p>food:{cart[0].foodCategory}</p> */}
+    </div>
+  );
 };
 
 export default OrderedFoods;
