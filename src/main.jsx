@@ -13,6 +13,7 @@ import SeeDetails from './Components/SeeDetails/SeeDetails';
 import FoodAvailable from './Components/FoodAvailable/FoodAvailable';
 import OrderedFoods from './Components/OrderedFoods/OrderedFoods';
 import Statistics from './Components/Statistics/Statistics';
+import Blog from './Components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -48,8 +49,10 @@ const router = createBrowserRouter([
 
       },
       {
-        path
-      }
+        path: '/blog',
+        element: <Blog></Blog>
+      },
+
       {
         path: '*',
         element: <div><h1>404 Error : Page Not Found</h1></div>

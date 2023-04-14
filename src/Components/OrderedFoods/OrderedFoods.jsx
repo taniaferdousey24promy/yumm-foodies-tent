@@ -4,7 +4,7 @@ import { getShoppingCart } from "../../utilities/fakedb";
 import {CurrencyBangladeshiIcon, MapPinIcon} from "@heroicons/react/24/solid";
 
 const OrderedFoods = () => {
-    const banner = "";
+    const banner = "https://t4.ftcdn.net/jpg/02/62/27/45/240_F_262274583_fbVsQxJVRYLgkaQHrRoxNKpMdDYmhLJD.jpg";
 
   const [foods, setFoodsducts] = useState([]);
   useEffect(() => {
