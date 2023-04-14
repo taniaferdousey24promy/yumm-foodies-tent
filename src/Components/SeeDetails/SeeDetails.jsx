@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import {
   CakeIcon,
   CurrencyBangladeshiIcon,
@@ -9,6 +9,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import "./SeeDetails.css";
+import { addToDb } from "../../utilities/fakedb";
 
 function SeeDetails() {
   const { foodAvailableId } = useParams();
@@ -23,6 +24,10 @@ function SeeDetails() {
   const banner =
     "https://cdn.shopify.com/s/files/1/2331/4061/files/Copy_of_Copy_of_Short_Bread_Banner_480x480.png?v=1661774905";
 
+
+  const handleAddToDb = (singleFood)=>{
+    addToDb(singleFood.id);
+  }
   return (
     <div>
       <div className="bannerOnDetails">
@@ -101,7 +106,7 @@ function SeeDetails() {
             </div>
 
           <div className="order-button">
-            <button>Order Now</button>
+            <Link to='/foodOrdering'><button onClick={()=>handleAddToDb(singleFood)}>Order Now</button></Link>
           </div>
         </div>
       </div>

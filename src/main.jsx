@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 import FoodCart from './Components/FoodCart/FoodCart';
 import SeeDetails from './Components/SeeDetails/SeeDetails';
 import FoodAvailable from './Components/FoodAvailable/FoodAvailable';
+import OrderedFoods from './Components/OrderedFoods/OrderedFoods';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         
 
       },
+      {
+        path: '/foodOrdering',
+        element:<OrderedFoods></OrderedFoods>
+      }
       // {
       //   path:'food-cart',
       //   element:<FoodCart></FoodCart>
