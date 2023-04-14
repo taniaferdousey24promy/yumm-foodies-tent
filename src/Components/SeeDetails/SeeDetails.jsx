@@ -10,6 +10,7 @@ import {
 
 import "./SeeDetails.css";
 import { addToDb } from "../../utilities/fakedb";
+import OrderedFoods from "../OrderedFoods/OrderedFoods";
 
 function SeeDetails() {
   const { foodAvailableId } = useParams();

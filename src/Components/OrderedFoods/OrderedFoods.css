@@ -1,0 +1,14 @@
+.container-for-each{
+    display: flex;
+    border: 1px solid yellowgreen;
+    width: 1000px;
+    margin-left: 150px;
+}
+.flex-row{
+    flex: 1;
+}
+.food-pic img{
+    width: 200px;
+    height: 200px;
+    
+}

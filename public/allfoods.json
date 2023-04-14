@@ -5,6 +5,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 300,
     "foodCategory": "French",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
@@ -36,6 +38,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 600,
     "foodCategory": "Japanese",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
@@ -66,6 +70,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 100,
     "foodCategory": "Spanish",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
@@ -96,6 +102,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 500,
     "foodCategory": "Mexican",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
@@ -125,6 +133,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 200,
     "foodCategory": "French",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
@@ -154,6 +164,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 600,
     "foodCategory": "French",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
@@ -183,6 +195,8 @@
     "coverPicture": "http://placehold.it/32x32",
     "numberOfOrdersTaken": 200,
     "foodCategory": "French",
+    "quantity": 0,
+
     "foodDetails": 
       {
 
